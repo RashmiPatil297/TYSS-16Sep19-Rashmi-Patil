@@ -1,0 +1,13 @@
+package com.tyss.phonesimulator.dao;
+
+import java.util.List;
+
+import com.tyss.phonesimulator.dto.MobileBean;
+
+public interface PhoneDAO {
+
+	public List showContactNames();
+	public MobileBean search(String name);
+	//public void operation();
+
+}

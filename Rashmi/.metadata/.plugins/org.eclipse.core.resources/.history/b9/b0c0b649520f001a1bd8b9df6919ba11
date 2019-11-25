@@ -1,0 +1,22 @@
+package com.tyss.phonesimulator.util;
+
+import java.util.List;
+
+import com.tyss.phonesimulator.dao.PhoneDAO;
+import com.tyss.phonesimulator.dao.PhoneDAOImpl;
+import com.tyss.phonesimulator.dto.MobileBean;
+
+public class Phone {
+
+	public Phone() {
+
+	}
+
+	public static PhoneDAO getPhoneDao() {
+		return new PhoneDAOImpl();
+
+	}
+
+
+
+}

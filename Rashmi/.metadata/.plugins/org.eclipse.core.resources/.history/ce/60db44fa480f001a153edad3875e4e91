@@ -1,0 +1,9 @@
+package com.tyss.phonesimulator.dao;
+
+public interface PhoneDAO {
+	
+	public String showAllDetails();
+	//public int search(String name);
+    //public void operation();
+
+}

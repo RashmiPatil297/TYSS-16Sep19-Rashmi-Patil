@@ -1,0 +1,11 @@
+package com.tyss.phonesimulator.util;
+
+public class Phone {
+	
+	public Phone() {
+		
+	}
+	
+	
+
+}

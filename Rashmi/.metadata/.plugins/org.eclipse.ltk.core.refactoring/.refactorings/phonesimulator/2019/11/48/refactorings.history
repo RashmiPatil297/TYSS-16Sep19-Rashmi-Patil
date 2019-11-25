@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;phonesimulator&apos;&#x0D;&#x0A;- Original project: &apos;phonesimulator&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     phonesimulator/src/com.tyss.phonesimulator.dao&#x0D;&#x0A;     phonesimulator/src/com.tyss.phonesimulator.dto&#x0D;&#x0A;     phonesimulator/src/com.tyss.phonesimulator.util" description="Delete elements" element1="/src&lt;com.tyss.phonesimulator.util" element2="/src&lt;com.tyss.phonesimulator" element3="/src&lt;com.tyss" element4="/src&lt;com" element5="/src&lt;com.tyss.phonesimulator.dto" element6="/src&lt;com.tyss.phonesimulator.dao" elements="6" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1574659329882" subPackages="false" version="1.0"/>
+</session>

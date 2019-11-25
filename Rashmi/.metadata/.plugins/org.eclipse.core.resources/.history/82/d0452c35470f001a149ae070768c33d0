@@ -1,0 +1,22 @@
+package com.tyss.phonesimulator.dao;
+
+import java.util.Scanner;
+
+public class PhoneDAOImpl implements PhoneDAO{
+	
+	public String showAllDetails() {
+		
+		Scanner scn = new Scanner(System.in);
+		System.out.println("enter name");
+		String name = scn.next();
+		System.out.println("enter number");
+		int number = scn.nextInt();
+		System.out.println("enter group");
+		String group = scn.next();
+		
+		
+		
+	}
+	
+
+}

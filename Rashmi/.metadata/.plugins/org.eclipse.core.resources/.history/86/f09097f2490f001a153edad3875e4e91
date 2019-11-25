@@ -1,0 +1,9 @@
+package com.tyss.phonesimulator;
+
+public class PhoneApp {
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
