@@ -1,0 +1,37 @@
+
+        var mobile = new Object();
+            mobile.name = 'samsung';
+            mobile.model = 'galaxyj26';
+            mobile.cost = 14000;
+                console.log(mobile.name);
+                console.log(mobile.model);
+                console.log(mobile.cost);
+        var account = new Object();
+            account.bankname = 'union';
+            account.acno = 2883656732785;
+            account.branch = 'bagalkot';
+                console.log(account.bankname);
+                console.log(account.acno);
+                console.log(account.branch);
+        var college = new Object();
+            college.name = 'basaveshwara';
+            college.university = 'VTU';
+            college.place = 'bagalkot';
+                console.log(college.name);
+                console.log(college.university);
+                console.log(college.place);
+        var student = new Object();
+             student.name = 'vishwa';
+             student.rollno = '1';
+             student.marks = 140;
+                console.log(student.name);
+                console.log(student.rollno);
+                console.log(student.marks);
+        var printer = new Object();
+             printer.type = 'colorprinter';
+             printer.model = 'epson';
+             printer.cost = 15000;
+                console.log(printer.type);
+                console.log(printer.model);
+                console.log(printer.cost);
+    

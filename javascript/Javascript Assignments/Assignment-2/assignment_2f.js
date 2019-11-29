@@ -1,0 +1,13 @@
+console.log('round of 10.7',Math.round(10.7));
+        console.log('pow of 10 and 2', Math.pow(10,2));
+        console.log('ceil of 10.7', Math.ceil(10.7));
+        console.log('floor of 10.7', Math.floor(10.7));
+        console.log('random', Math.floor(Math.random()*100)+1);
+        console.log('abs of -20', Math.abs(-20));
+        console.log('log2 of 8', Math.log2(8));
+        console.log('log of 8', Math.log(8));
+        console.log('max of 10,20', Math.max(10,20));
+        console.log('min of 10,20', Math.min(10,20));
+        console.log('pi=',Math.PI);
+        console.log('sqrt of 4', Math.sqrt(4));
+        console.log('trunc of 12.6', Math.trunc(12.6));

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <form name="myForm" action="" onSubmit="return validate()">
+        Username:
+        <input id='myUsername' type="text" maxlength="5"/><br>
+        <span id="error_msg" style="color:red"></span>
+        Password:
+        <input id='myPassword' type="password" maxlength="6"/>
+        <i style="margin-left: -20px;" onclick="pwdvisible()" class="fa fa-eye" aria-hidden="true"></i><br><br>
+        <input type="submit" id="validate" value="validate" onclick="pwdvisible()"></input>
+    </form> 
+    <script src="username.js"></script>
+  
+</body>
+</html>

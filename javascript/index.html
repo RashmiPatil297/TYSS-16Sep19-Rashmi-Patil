@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    var age=18;
+    console.log('age='+age);
+    var name="rashmi";
+    console.log('name='+name);
+    var hasHobbies=true;
+    console.log('hoobies='+hasHobbies);
+    var age=null;
+    console.log('age='+age);
+    var married;
+    console.log('married='+married);
+    </script>
+</head>
+<body>
+    <script>
+        var fruits = ['orange','mango','apple','pinapple'];
+        console.log("fruits="+fruits)
+        console.log("fruits="+fruits[0]);
+        console.log('fruits length='+fruits.length)
+        var person={
+            firstname:"rakshu",
+            lastname:"patil",
+            age:18,
+            pnno:9686140489,
+            getFullName:function(){
+                return this.firstname+' '+this.lastname;
+            }
+        }
+       var lastname=person.lastname;
+       console.log('lastname ',lastname);
+       var personage=person.age;
+       console.log('age ',personage);
+       var fullname=person.getFullName();
+       console.log('fullname ',fullname);
+       var i=10;
+       var str='10';
+       if(i!==str)
+       {
+           console.log('equal');
+       }
+       else{
+           console.log('not equal');
+       }
+
+       var numvalue=20;
+       console.log(typeof numvalue);
+       var name='bhagat singh';
+       console.log(typeof name);
+       var age=null;
+       console.log(typeof age);
+       var id;
+       console.log(typeof id);
+        
+       
+    </script>
+</body>
+</html>
