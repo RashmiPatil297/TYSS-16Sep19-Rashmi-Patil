@@ -1,0 +1,48 @@
+body{
+    
+    background-image: url(/images/computer-2565478__340.jpg);
+    background-size: cover;
+}
+form{
+
+    border: 1px solid black;
+    width: 350px;
+    height:400px;
+    margin-top:100px;
+    margin-left: 480px; 
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    border: 1px solid black;
+    border-radius:25px; 
+    background-image: url(/images/map.jpg);
+    
+}
+input[type="text"],input[type="password"]{
+    border-radius: 25px;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    font-size:20px;
+    border:2px solid black;
+}
+input[type="text"],input[type="password"]:focus{
+    outline:none;
+
+}
+input[type="submit"]{
+    outline: none;
+    margin-top: 20px;
+    padding: 12px 20px;
+    border-radius:25px; 
+    font-size: 15px;
+    background-color: rgb(102, 62, 139);
+}
+input[type="submit"]:focus{
+    
+    color:white;
+}
+input[type="submit"]:hover{
+    background-color: blue;
+    border:2px solid red;
+}
