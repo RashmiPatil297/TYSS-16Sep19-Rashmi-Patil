@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+           body {background-color: powderblue;}
+    span { color:orange;}
+    p {text-align: center;
+        margin-left:40px;
+        margin-right:40px;
+        size:30px;
+       }
+    div {
+
+        padding:10px;
+        }
+    .b1 {background-color: orangered;width:200px;height:50px; }
+    .b2 {background-color: white;width:200px;height:50px;}
+    .boottom-right{
+        position:absolute;
+        bottom:8px;
+        right:16px;
+        font-size:28px;
+       }
+       .boottom-left{
+        position:absolute;
+        bottom:8px;
+        right:16px;
+        font-size:28px;
+       }
+       .boottom-center{
+        position:relative;
+        bottom:8px;
+        right:16px;
+        font-size:28px;
+        text-align: left;
+       }
+       .column{
+           float:left;
+           width:32%;
+           padding:5px;
+       }
+       .row{
+           border:3px;
+           position: relative;
+           text-align: left;
+           color: black;
+       }
+       .row::after{
+           content:"";
+           clear:both;
+           display:table;
+       }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align:center;size:20px;">India <span>Tour Packages</span></h1>
+    <p>With sundry sceneries and cultural groups, a scrumptious food and rich heritage,
+         India offers a real cultural experience for any tourist thronging from different 
+         parts of the world. From the majestic havelis of Rajasthan and the snow capped mountains
+          of Himalayas, to a glimpse of different types of wild creatures at the most renowned 
+          national parks and pristine beaches of Kerala, all of these can be scouted only in the 
+          beautiful land of India. Create memoirs that last a lifetime by exploring the much admired 
+          places of India. We tender affordable and attractive India travel packages to suit the needs 
+          of every tourist. Choosing any of these holiday packages will provide you with wholesome
+           experiences that you will love to treasure with your friends in joyful time.</p>
+           <br>
+    <center>
+            <input type="button" class="b1" value="Tour Packages By State">
+            <input type="button" class="b2" value="Tour Packages By Inetrest">
+    </center>
+    <br>
+    <div class="row">
+        <div class="column">
+        
+        <img src="rajasthantour.jpg" alt="">  
+    
+        <div class="bottom-left">
+            <ul>
+           <li>Rajasthan Tour  </li> 
+           <li>Best of Rajasthan</li>
+            <li>Pushkar Deluxe</li>
+            <li>Romantic Rajasthan</li>
+        <a href="abc.html" style="color:chocolate">more</a></ul></div>
+        </div>
+                    
+        <div class="column">
+        <img src="keralatour.jpg" alt="">
+        <div class="bottom-center">
+           <ul>
+          <li>Spices of Kerala  8D/7N</li>
+          <li>Backwaters and Beaches of Kerala  11D/10N</li>
+          <li>Exotic Kerala Tour  10D/9N</li>
+          <li>Best of South India  11D/10N more</li> 
+          <a href="abc.html" style="color:chocolate">more</a></ul></div>
+        </div>
+        <div class="column">
+           
+        <img src="kashmirtour.jpg" alt="">
+        <div class="bottom-left">
+            <ul>
+        <li>Best of Kashmir  6D/5N</li>
+        <li>Delight of Kashmir  6D/5N</li>
+        <li>Jewells of Kashmir  5D/4N</li>
+        <li>Kashmir Houseboat with Gulmarg  4D/3N</li>
+        <a href="abc.html" style="color:chocolate">more</a></ul></div>
+    </div>
+    </div>
+
+</body>
+</html>
+
